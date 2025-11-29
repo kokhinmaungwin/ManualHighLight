@@ -23,4 +23,4 @@ Just plug & use ✔
 Use CDN (recommended):
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/ManulHighLight/manualhighlight.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/ManualHighLight/manualhighlight.js"></script>
