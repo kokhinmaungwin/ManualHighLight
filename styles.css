@@ -1,0 +1,60 @@
+.broCodeBox {
+    position: relative;
+    background: #1e1e1e;
+    color: #ddd;
+    padding: 12px 12px 40px 12px; 
+    border-radius: 8px;
+    border: 1px solid #333;
+    font-family: Consolas, Monaco, 'Courier New', monospace;
+    box-sizing: border-box;
+    margin: 18px 0;
+}
+
+.broCopyBtn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #2b2b2b;
+    color: #fff;
+    border: 0;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 20;
+    font-size: 13px;
+}
+
+.broPreview {
+    white-space: pre-wrap; 
+    font-family: Consolas, Monaco, 'Courier New', monospace;
+    color: ;
+    background: #1e1e1e;
+    padding: 10px;
+    border-radius: 6px;
+    overflow-x: auto;
+    box-sizing: border-box;
+    line-height: 1.45;
+    font-size: 13px;
+    border: 1px solid #2f2f2f;
+    margin-top: 28px; 
+    min-height: 80px;
+    max-height: 420px;
+    overflow-y: auto;
+  }
+
+  textarea.codeData {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* small responsiveness */
+  @media (max-width: 420px) {
+    .broCodeBox { padding: 12px 10px 46px 10px; }
+    .broCopyBtn { padding: 6px 8px; font-size: 12px; }
+    .broPreview { font-size: 12px; }
+  }
