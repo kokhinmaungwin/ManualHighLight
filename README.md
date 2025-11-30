@@ -56,6 +56,8 @@ Use CDN (recommended):
 ```html
 <script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/ManualHighLight/main.js" defer></script>
 
+```
+
 ---
 
 ## 🧩 License
