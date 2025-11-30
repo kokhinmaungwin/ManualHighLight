@@ -44,10 +44,12 @@ Use CDN (recommended):
 
 ### 2. Include Stylesheet
 
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kokhinmaungwin/ManualHighLight/styles.css">
 
 ### 3. Include Main Renderer Script
 
+```html
 <script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/ManualHighLight/main.js" defer></script>
 
 
