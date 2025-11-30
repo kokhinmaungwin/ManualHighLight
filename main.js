@@ -94,12 +94,9 @@ const ta = box.querySelector("textarea.codeData");
       renderAll();
       attachCopy();
 
-  // For dynamic usage
+// For dynamic usage
       window.broRenderAll = renderAll;
       window.broAttachCopy = attachCopy;
-
     }); 
-
   }); 
-
 })();
