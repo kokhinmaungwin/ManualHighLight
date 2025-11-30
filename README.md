@@ -42,10 +42,14 @@ Use CDN (recommended):
 ```html
 <script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/ManualHighLight/manualhighlight.js"></script>
 
+```
+
 ### 2. Include Stylesheet
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kokhinmaungwin/ManualHighLight/styles.css">
+
+```
 
 ### 3. Include Main Renderer Script
 
