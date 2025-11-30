@@ -57,14 +57,14 @@ code = code.replace(/\b(id|src|href|type|name)/gi,
   code = code.replace(/\b([a-zA-Z_]\w*)(?=\s*\()/g, '<span style="color:#4ec9b0;">$1</span>');
   
 // 14. CSS properties
-  code = code.replace(/\b(padding|margin|font|border|display|position|top|left|right|bottom|gap|width|height|overflow|white|break)\b/g,
+  code = code.replace(/\b(padding|margin|font|border|display|position|top|left|right|bottom|gap|width|height|overflow|white|break|transition)\b/g,
     '<span style="color:#d7ba7d;">$1</span>');
 
 // 15.  
-  code = code.replace(/\b(background|x|y|max|space|wrap|cursor|radius|size|family|box-shadow|text-align|align-items|justify-content|flex-direction|resize)\b/g, '<span style="color:#f39c12">$1</span>');
+  code = code.replace(/\b(background|z|x|y|max|space|wrap|cursor|radius|size|family|box|shadow|text|align|items|justify|content|flex|direction|resize|index)\b/g, '<span style="color:#f39c12">$1</span>');
  
 // 16. 
-  code = code.replace(/\b(auto|none|absolute|vertical|pointer|word)\b/g,
+  code = code.replace(/\b(auto|none|absolute|vertical|pointer|word|hidden|hover)\b/g,
     '<span style="color:#16a085;">$1</span>');
   
 // 17. CSS values (px, %, rem, em)
