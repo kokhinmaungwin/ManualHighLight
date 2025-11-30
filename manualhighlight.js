@@ -87,7 +87,7 @@ code = code.replace(/\b(id|src|href|type|name)/gi,
     '<span style="color:#6a9955;">$1</span>');
     
 // 21. 
-  code = code.replace(/(&lt;|&gt;|&amp;|&#39;)/g,
+  code = code.replace(/(&lt;|&gt;|&amp;)/g,
   '<span style="color:#E63946;">$1</span>');
 
    return code;
